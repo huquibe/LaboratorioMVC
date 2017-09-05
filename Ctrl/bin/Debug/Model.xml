@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Model
+</name>
+</assembly>
+<members>
+<member name="T:Model.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Model.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Model.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Model.Modelo.Archivo.#ctor">
+ <summary>
+ Este método inicializa la clase sin argumentos
+ </summary>
+ <remarks>Inicializa la clase</remarks>
+</member>
+<member name="M:Model.Modelo.Archivo.Leer(System.Int32)">
+ <summary>
+ Este método Obtiene el registro indicado por el valor Indice desde el archivo, devuelve los datos en una estructura
+ </summary>
+ <param name="Indice">Indice de egistro a leer</param>
+ <remarks>Devuelve una cadena con el contenido del registro indice del archivo</remarks>
+</member>
+<member name="M:Model.Modelo.Archivo.Escribir(Model.Modelo.Archivo.datos)">
+ <summary>
+ Este método Escribe el contenido de estructura en el archivo, anexandolo al final
+ </summary>
+ <param name="estructura">Datos a escribir</param>
+ <remarks>agrega el contenido de estructura al archivo</remarks>
+</member>
+<member name="M:Model.Modelo.Archivo.SizeBytes">
+ <summary>
+ Este método obtiene el tamaño en bytes del archivo
+ </summary>
+ <remarks>obtiene el tamaño en bytes del archivo</remarks>
+</member>
+<member name="M:Model.Modelo.Archivo.SizeReg">
+ <summary>
+ Este método obtiene el tamaño en registros del archivo
+ </summary>
+ <remarks>obtiene el tamaño en registros del archivo</remarks>
+</member>
+</members>
+</doc>

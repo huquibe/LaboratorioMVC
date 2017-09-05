@@ -1,0 +1,9 @@
+D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\Model\bin\Debug\Model.dll
+D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\Model\bin\Debug\Model.pdb
+D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\Model\bin\Debug\Model.xml
+D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\Model\obj\Debug\Model.vbprojResolveAssemblyReference.cache
+D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\Model\obj\Debug\Model.Resources.resources
+D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\Model\obj\Debug\Model.vbproj.GenerateResource.Cache
+D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\Model\obj\Debug\Model.dll
+D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\Model\obj\Debug\Model.xml
+D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\Model\obj\Debug\Model.pdb
