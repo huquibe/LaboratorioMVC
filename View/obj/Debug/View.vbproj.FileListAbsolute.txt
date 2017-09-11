@@ -11,6 +11,6 @@ D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\bin\Debug\C
 D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\bin\Debug\Ctrl.xml
 D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\obj\Debug\View.exe
 D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\obj\Debug\View.pdb
-C:\Users\Usuario\Source\Repos\LaboratorioMVC\View\obj\Debug\View.exe
-C:\Users\Usuario\Source\Repos\LaboratorioMVC\View\obj\Debug\View.xml
-C:\Users\Usuario\Source\Repos\LaboratorioMVC\View\obj\Debug\View.pdb
+D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\bin\Debug\Model.dll
+D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\bin\Debug\Model.pdb
+D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\bin\Debug\Model.xml
