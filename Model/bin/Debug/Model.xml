@@ -42,6 +42,20 @@ Model
  <param name="estructura">Datos a escribir</param>
  <remarks>agrega el contenido de estructura al archivo</remarks>
 </member>
+<member name="M:Model.Modelo.Archivo.Buscar(System.Object)">
+ <summary>
+ Esta función devuelve la posición en que se encuentra el id pasado como argumento, devuelve un entero con la posición del registro, o 0 si no se encuentra
+ </summary>
+ <param name="id">Identificador a Buscar</param>
+ <remarks>Busca un identificador en el archivo</remarks>
+</member>
+<member name="M:Model.Modelo.Archivo.Eliminar(System.Object)">
+ <summary>
+ Este método elimina el id pasado como argumento
+ </summary>
+ <param name="id">Identificador a Buscar</param>
+ <remarks>Busca un identificador en el archivo</remarks>
+</member>
 <member name="M:Model.Modelo.Archivo.SizeBytes">
  <summary>
  Este método obtiene el tamaño en bytes del archivo
@@ -53,6 +67,70 @@ Model
  Este método obtiene el tamaño en registros del archivo
  </summary>
  <remarks>obtiene el tamaño en registros del archivo</remarks>
+</member>
+<member name="M:Model.Modelo.Municipio.Buscar(System.Object)">
+ <summary>
+ Esta función devuelve la posición en que se encuentra el id pasado como argumento, devuelve un entero con la posición del registro, o 0 si no se encuentra
+ </summary>
+ <param name="id">Identificador a Buscar</param>
+ <remarks>Busca un identificador en el archivo</remarks>
+</member>
+<member name="M:Model.Modelo.Almacen.Buscar(System.Int32)">
+ <summary>
+ Esta función devuelve la posición en que se encuentra el id pasado como argumento, devuelve un entero con la posición del registro, o 0 si no se encuentra
+ </summary>
+ <param name="id">Identificador a Buscar</param>
+ <remarks>Busca un identificador en el archivo</remarks>
+</member>
+<member name="M:Model.Modelo.Cajero.Buscar(System.Int32)">
+ <summary>
+ Esta función devuelve la posición en que se encuentra el id pasado como argumento, devuelve un entero con la posición del registro, o 0 si no se encuentra
+ </summary>
+ <param name="id">Identificador a Buscar</param>
+ <remarks>Busca un identificador en el archivo</remarks>
+</member>
+<member name="M:Model.Modelo.Cliente.Buscar(System.Int32)">
+ <summary>
+ Esta función devuelve la posición en que se encuentra el id pasado como argumento, devuelve un entero con la posición del registro, o 0 si no se encuentra
+ </summary>
+ <param name="id">Identificador a Buscar</param>
+ <remarks>Busca un identificador en el archivo</remarks>
+</member>
+<member name="M:Model.Modelo.MedioPago.Buscar(System.Object)">
+ <summary>
+ Esta función devuelve la posición en que se encuentra el id pasado como argumento, devuelve un entero con la posición del registro, o 0 si no se encuentra
+ </summary>
+ <param name="id">Identificador a Buscar</param>
+ <remarks>Busca un identificador en el archivo</remarks>
+</member>
+<member name="M:Model.Modelo.TipoProducto.Buscar(System.Object)">
+ <summary>
+ Esta función devuelve la posición en que se encuentra el id pasado como argumento, devuelve un entero con la posición del registro, o 0 si no se encuentra
+ </summary>
+ <param name="id">Identificador a Buscar</param>
+ <remarks>Busca un identificador en el archivo</remarks>
+</member>
+<member name="M:Model.Modelo.Coleccion.Buscar(System.Int32)">
+ <summary>
+ Esta función devuelve la posición en que se encuentra el id pasado como argumento, devuelve un entero con la posición del registro, o 0 si no se encuentra
+ </summary>
+ <param name="id">Identificador a Buscar</param>
+ <remarks>Busca un identificador en el archivo</remarks>
+</member>
+<member name="M:Model.Modelo.Producto.Buscar(System.Int32)">
+ <summary>
+ Esta función devuelve la posición en que se encuentra el id pasado como argumento, devuelve un entero con la posición del registro, o 0 si no se encuentra
+ </summary>
+ <param name="id">Identificador a Buscar</param>
+ <remarks>Busca un identificador en el archivo</remarks>
+</member>
+<member name="M:Model.Modelo.Inventario.Buscar(System.Int32,System.Int32)">
+ <summary>
+ Esta función devuelve la posición en que se encuentra el id pasado como argumento, devuelve un entero con la posición del registro, o 0 si no se encuentra
+ </summary>
+ <param name="idalm">almacen a Buscar</param>
+ ''' <param name="idProd">Producto a Buscar</param>
+ <remarks>Busca un identificador en el archivo</remarks>
 </member>
 </members>
 </doc>
