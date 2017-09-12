@@ -14,3 +14,5 @@ D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\obj\Debug\V
 D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\bin\Debug\Model.dll
 D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\bin\Debug\Model.pdb
 D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\bin\Debug\Model.xml
+D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\obj\Debug\View.frmMain.resources
+D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\obj\Debug\View.frmTipoProducto.resources
