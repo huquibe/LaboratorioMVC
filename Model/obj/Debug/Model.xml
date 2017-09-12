@@ -110,6 +110,13 @@ Model
  <param name="id">Identificador a Buscar</param>
  <remarks>Busca un identificador en el archivo</remarks>
 </member>
+<member name="M:Model.Modelo.TipoProducto.Escribir(Model.Modelo.TipoProducto.Datos)">
+ <summary>
+ Este método Escribe el contenido de estructura en el archivo, anexandolo al final
+ </summary>
+ <param name="estructura">Datos a escribir</param>
+ <remarks>agrega el contenido de estructura al archivo</remarks>
+</member>
 <member name="M:Model.Modelo.Coleccion.Buscar(System.Int32)">
  <summary>
  Esta función devuelve la posición en que se encuentra el id pasado como argumento, devuelve un entero con la posición del registro, o 0 si no se encuentra
@@ -129,6 +136,21 @@ Model
  Esta función devuelve la posición en que se encuentra el id pasado como argumento, devuelve un entero con la posición del registro, o 0 si no se encuentra
  </summary>
  <param name="idalm">almacen a Buscar</param>
+ ''' <param name="idProd">Producto a Buscar</param>
+ <remarks>Busca un identificador en el archivo</remarks>
+</member>
+<member name="M:Model.Modelo.VentaEnc.Buscar(System.Int32)">
+ <summary>
+ Esta función devuelve la posición en que se encuentra el id pasado como argumento, devuelve un entero con la posición del registro, o 0 si no se encuentra
+ </summary>
+ <param name="id">Id a Buscar</param>
+ <remarks>Busca un identificador en el archivo</remarks>
+</member>
+<member name="M:Model.Modelo.ventaDet.Buscar(System.Int32,System.Int32)">
+ <summary>
+ Esta función devuelve la posición en que se encuentra el id pasado como argumento, devuelve un entero con la posición del registro, o 0 si no se encuentra
+ </summary>
+ <param name="idVenta">Venta a Buscar</param>
  ''' <param name="idProd">Producto a Buscar</param>
  <remarks>Busca un identificador en el archivo</remarks>
 </member>

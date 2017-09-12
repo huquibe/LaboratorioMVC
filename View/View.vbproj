@@ -76,6 +76,18 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTipoProducto.Designer.vb">
+      <DependentUpon>frmTipoProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTipoProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -95,6 +107,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTipoProducto.resx">
+      <DependentUpon>frmTipoProducto.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -118,6 +136,10 @@
     <ProjectReference Include="..\Ctrl\Ctrl.vbproj">
       <Project>{d578389d-abae-44ce-af80-5d68f10802c7}</Project>
       <Name>Ctrl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.vbproj">
+      <Project>{70eee591-f32b-43e8-bdd2-b24ac2c03375}</Project>
+      <Name>Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
