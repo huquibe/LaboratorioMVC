@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmTipoProducto
+Partial Class frmClientes
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -35,9 +35,19 @@ Partial Class frmTipoProducto
         Me.cmdLast = New System.Windows.Forms.Button()
         Me.cmdExit = New System.Windows.Forms.Button()
         Me.txtId = New System.Windows.Forms.TextBox()
-        Me.txtDescripcion = New System.Windows.Forms.TextBox()
+        Me.txtNombres = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.txtApellidos = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.txtEmail = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.txtCelular = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.txtFNmto = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.txtDireccion = New System.Windows.Forms.TextBox()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
@@ -164,22 +174,22 @@ Partial Class frmTipoProducto
         '
         'txtId
         '
-        Me.txtId.Location = New System.Drawing.Point(204, 61)
+        Me.txtId.Location = New System.Drawing.Point(243, 61)
         Me.txtId.Name = "txtId"
         Me.txtId.Size = New System.Drawing.Size(136, 20)
         Me.txtId.TabIndex = 3
         '
-        'txtDescripcion
+        'txtNombres
         '
-        Me.txtDescripcion.Location = New System.Drawing.Point(204, 87)
-        Me.txtDescripcion.Name = "txtDescripcion"
-        Me.txtDescripcion.Size = New System.Drawing.Size(410, 20)
-        Me.txtDescripcion.TabIndex = 4
+        Me.txtNombres.Location = New System.Drawing.Point(243, 87)
+        Me.txtNombres.Name = "txtNombres"
+        Me.txtNombres.Size = New System.Drawing.Size(410, 20)
+        Me.txtNombres.TabIndex = 4
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(147, 64)
+        Me.Label1.Location = New System.Drawing.Point(186, 64)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(40, 13)
         Me.Label1.TabIndex = 5
@@ -188,25 +198,115 @@ Partial Class frmTipoProducto
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(124, 90)
+        Me.Label2.Location = New System.Drawing.Point(177, 90)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(63, 13)
+        Me.Label2.Size = New System.Drawing.Size(49, 13)
         Me.Label2.TabIndex = 6
-        Me.Label2.Text = "Descripción"
+        Me.Label2.Text = "Nombres"
         '
-        'frmTipoProducto
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(177, 116)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(49, 13)
+        Me.Label3.TabIndex = 8
+        Me.Label3.Text = "Apellidos"
+        '
+        'txtApellidos
+        '
+        Me.txtApellidos.Location = New System.Drawing.Point(243, 113)
+        Me.txtApellidos.Name = "txtApellidos"
+        Me.txtApellidos.Size = New System.Drawing.Size(410, 20)
+        Me.txtApellidos.TabIndex = 7
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(194, 142)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(32, 13)
+        Me.Label4.TabIndex = 10
+        Me.Label4.Text = "Email"
+        '
+        'txtEmail
+        '
+        Me.txtEmail.Location = New System.Drawing.Point(243, 139)
+        Me.txtEmail.Name = "txtEmail"
+        Me.txtEmail.Size = New System.Drawing.Size(410, 20)
+        Me.txtEmail.TabIndex = 9
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(187, 168)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(39, 13)
+        Me.Label5.TabIndex = 12
+        Me.Label5.Text = "Celular"
+        '
+        'txtCelular
+        '
+        Me.txtCelular.Location = New System.Drawing.Point(243, 165)
+        Me.txtCelular.Name = "txtCelular"
+        Me.txtCelular.Size = New System.Drawing.Size(410, 20)
+        Me.txtCelular.TabIndex = 11
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(118, 194)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(108, 13)
+        Me.Label6.TabIndex = 14
+        Me.Label6.Text = "Fecha de Nacimiento"
+        '
+        'txtFNmto
+        '
+        Me.txtFNmto.Location = New System.Drawing.Point(243, 191)
+        Me.txtFNmto.Name = "txtFNmto"
+        Me.txtFNmto.Size = New System.Drawing.Size(410, 20)
+        Me.txtFNmto.TabIndex = 13
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(174, 220)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(52, 13)
+        Me.Label7.TabIndex = 16
+        Me.Label7.Text = "Dirección"
+        '
+        'txtDireccion
+        '
+        Me.txtDireccion.Location = New System.Drawing.Point(243, 217)
+        Me.txtDireccion.Name = "txtDireccion"
+        Me.txtDireccion.Size = New System.Drawing.Size(410, 20)
+        Me.txtDireccion.TabIndex = 15
+        '
+        'frmClientes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(683, 332)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.txtDireccion)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.txtFNmto)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.txtCelular)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.txtEmail)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.txtApellidos)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.txtDescripcion)
+        Me.Controls.Add(Me.txtNombres)
         Me.Controls.Add(Me.txtId)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Name = "frmTipoProducto"
-        Me.Text = "Tipos de Producto"
+        Me.Name = "frmClientes"
+        Me.Text = "Clientes"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
@@ -229,7 +329,17 @@ Partial Class frmTipoProducto
     Friend WithEvents cmdExit As Button
     Friend WithEvents cmdDelete As Button
     Friend WithEvents txtId As TextBox
-    Friend WithEvents txtDescripcion As TextBox
+    Friend WithEvents txtNombres As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents txtApellidos As TextBox
+    Friend WithEvents Label4 As Label
+    Friend WithEvents txtEmail As TextBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents txtCelular As TextBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents txtFNmto As TextBox
+    Friend WithEvents Label7 As Label
+    Friend WithEvents txtDireccion As TextBox
 End Class
