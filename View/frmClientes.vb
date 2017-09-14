@@ -1,11 +1,11 @@
-﻿Public Class frmTipoProducto
-    Dim Ctrler As Ctrl.Controlador.clsCtrlTipoProducto
-    Dim dat As Ctrl.Controlador.clsCtrlTipoProducto.Datos
+﻿Public Class frmClientes
+    Dim Ctrler As Ctrl.Controlador.clsCtrlClientes
+    Dim dat As Ctrl.Controlador.clsCtrlClientes.Datos
     Private Sub frmTipoProducto_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.MdiParent = frmMain
         Me.lblNombre.Text = Me.Text
         'Activar(0)
-        Ctrler = New Ctrl.Controlador.clsCtrlTipoProducto()
+        Ctrler = New Ctrl.Controlador.clsCtrlClientes()
         Llenar()
     End Sub
 
@@ -27,13 +27,23 @@
         Me.Close()
     End Sub
 
-    Private Sub rellenar(dt As Ctrl.Controlador.clsCtrlTipoProducto.Datos)
+    Private Sub rellenar(dat As Ctrl.Controlador.clsCtrlClientes.Datos)
         If dat.Contenido.Id = 0 Then
             txtId.Text = ""
-            txtDescripcion.Text = ""
+            txtNombres.Text = ""
+            txtApellidos.Text = ""
+            txtEmail.Text = ""
+            txtCelular.Text = ""
+            txtFNmto.Text = ""
+            txtDireccion.Text = ""
         Else
             txtId.Text = dat.Contenido.Id.ToString
-            txtDescripcion.Text = dat.Contenido.Nombre
+            txtNombres.Text = dat.Contenido.Nombres
+            txtApellidos.Text = dat.Contenido.Apellidos
+            txtEmail.Text = dat.Contenido.Email
+            txtCelular.Text = dat.Contenido.Celular
+            txtFNmto.Text = dat.Contenido.FechaNmto
+            txtDireccion.Text = dat.Contenido.Direccion
         End If
 
 
@@ -69,13 +79,24 @@
 
     Private Sub cmdNew_Click(sender As Object, e As EventArgs) Handles cmdNew.Click
         txtId.Text = ""
-        txtDescripcion.Text = ""
+        txtNombres.Text = ""
+        txtApellidos.Text = ""
+        txtEmail.Text = ""
+        txtCelular.Text = ""
+        txtFNmto.Text = ""
+        txtDireccion.Text = ""
     End Sub
 
     Private Sub cmdSave_Click(sender As Object, e As EventArgs) Handles cmdSave.Click
-        Dim argum As Ctrl.Controlador.clsCtrlTipoProducto.Datos
+        Dim argum As Ctrl.Controlador.clsCtrlClientes.Datos
         argum.Contenido.Id = Val(txtId.Text)
-        argum.Contenido.Nombre = txtDescripcion.Text.ToString.Trim
+        argum.Contenido.Nombres = txtNombres.Text.ToString.Trim
+        argum.Contenido.Apellidos = txtApellidos.Text.ToString.Trim
+        argum.Contenido.Email = txtEmail.Text.ToString.Trim
+        argum.Contenido.Direccion = txtDireccion.Text.ToString.Trim
+        argum.Contenido.FechaNmto = CDate(txtFNmto.Text.ToString.Trim)
+        argum.Contenido.Celular = Val(txtCelular.Text.ToString.Trim)
+
         If Ctrler.Grabar(argum) Then
             MsgBox("Grabado con exito", vbOKOnly, "Grabación")
         Else

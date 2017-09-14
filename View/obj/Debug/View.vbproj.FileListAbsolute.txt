@@ -15,4 +15,5 @@ D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\bin\Debug\M
 D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\bin\Debug\Model.pdb
 D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\bin\Debug\Model.xml
 D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\obj\Debug\View.frmMain.resources
-D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\obj\Debug\View.frmTipoProducto.resources
+D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\obj\Debug\View.frmClientes.resources
+D:\Universidad\2017-02\Estructura\LaboratorioMVC\LaboratorioMVC\View\obj\Debug\View.Creditos.resources
